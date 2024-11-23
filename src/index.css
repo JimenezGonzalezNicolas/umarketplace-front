@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary-color: #1d1d24;
+    --secondary-color: #747577;
+    --accent-color: #1d1e1f;
+    --text-color: #e94560;
+    --button-color: #21be70;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.icon-login {
+    filter: brightness(0) saturate(100%) invert(21%) sepia(2%) saturate(2231%) hue-rotate(202deg) brightness(100%) contrast(88%);
+}
+
+.icon-home {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(95deg) brightness(101%) contrast(102%);
+}
+
+.input-login:hover{
+    text-decoration: none;
+}
