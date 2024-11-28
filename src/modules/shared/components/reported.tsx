@@ -1,8 +1,5 @@
-import React, { useState } from "react";
-import ConfettiExplosion from "react-confetti-explosion";
 import { Link } from "react-router";
 export default function Reported() {
-    const [isExploding, setIsExploding] = useState(false);
 
     return (
         <div className="flex items-center justify-center h-screen bg-primary-color text-white font-sans">

@@ -34,3 +34,29 @@ button {
 .input-login:hover{
     text-decoration: none;
 }
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
+  
+  /* Opcional para mayor control */
+.card {
+    max-width: 16rem; /* 64 Tailwind units */
+    height: 20rem;    /* 80 Tailwind units */
+    display: flex;
+    flex-direction: column;
+  }
+  .card img {
+    height: 8rem;     /* 32 Tailwind units */
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
